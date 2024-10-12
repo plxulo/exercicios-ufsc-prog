@@ -7,6 +7,7 @@ int main() {
 
   printf("Nome: ");
   scanf("%s", &nmA);
+  fgets(nmA, sizeof(nmA), stdin);
 
   printf("Matrícula: ");
   scanf("%i", &nMat);
